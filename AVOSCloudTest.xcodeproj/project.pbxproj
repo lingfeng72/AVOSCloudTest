@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		163550541C17C9DB00969607 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 163550531C17C9DB00969607 /* main.m */; };
+		163550571C17C9DB00969607 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 163550561C17C9DB00969607 /* AppDelegate.m */; };
+		1635505A1C17C9DB00969607 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 163550591C17C9DB00969607 /* ViewController.m */; };
+		1635505D1C17C9DB00969607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1635505B1C17C9DB00969607 /* Main.storyboard */; };
+		163550601C17C9DB00969607 /* AVOSCloudTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1635505E1C17C9DB00969607 /* AVOSCloudTest.xcdatamodeld */; };
+		163550621C17C9DB00969607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 163550611C17C9DB00969607 /* Assets.xcassets */; };
+		163550651C17C9DB00969607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163550631C17C9DB00969607 /* LaunchScreen.storyboard */; };
+		163550701C17C9DB00969607 /* AVOSCloudTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1635506F1C17C9DB00969607 /* AVOSCloudTestTests.m */; };
+		1635507B1C17C9DB00969607 /* AVOSCloudTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1635507A1C17C9DB00969607 /* AVOSCloudTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1635506C1C17C9DB00969607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 163550471C17C9DB00969607 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1635504E1C17C9DB00969607;
+			remoteInfo = AVOSCloudTest;
+		};
+		163550771C17C9DB00969607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 163550471C17C9DB00969607 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1635504E1C17C9DB00969607;
+			remoteInfo = AVOSCloudTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1635504F1C17C9DB00969607 /* AVOSCloudTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVOSCloudTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		163550531C17C9DB00969607 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		163550551C17C9DB00969607 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		163550561C17C9DB00969607 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		163550581C17C9DB00969607 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		163550591C17C9DB00969607 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1635505C1C17C9DB00969607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1635505F1C17C9DB00969607 /* AVOSCloudTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AVOSCloudTest.xcdatamodel; sourceTree = "<group>"; };
+		163550611C17C9DB00969607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		163550641C17C9DB00969607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		163550661C17C9DB00969607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1635506B1C17C9DB00969607 /* AVOSCloudTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVOSCloudTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1635506F1C17C9DB00969607 /* AVOSCloudTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVOSCloudTestTests.m; sourceTree = "<group>"; };
+		163550711C17C9DB00969607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		163550761C17C9DB00969607 /* AVOSCloudTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVOSCloudTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1635507A1C17C9DB00969607 /* AVOSCloudTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVOSCloudTestUITests.m; sourceTree = "<group>"; };
+		1635507C1C17C9DB00969607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1635504C1C17C9DB00969607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163550681C17C9DB00969607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163550731C17C9DB00969607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		163550461C17C9DB00969607 = {
+			isa = PBXGroup;
+			children = (
+				163550511C17C9DB00969607 /* AVOSCloudTest */,
+				1635506E1C17C9DB00969607 /* AVOSCloudTestTests */,
+				163550791C17C9DB00969607 /* AVOSCloudTestUITests */,
+				163550501C17C9DB00969607 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		163550501C17C9DB00969607 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1635504F1C17C9DB00969607 /* AVOSCloudTest.app */,
+				1635506B1C17C9DB00969607 /* AVOSCloudTestTests.xctest */,
+				163550761C17C9DB00969607 /* AVOSCloudTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		163550511C17C9DB00969607 /* AVOSCloudTest */ = {
+			isa = PBXGroup;
+			children = (
+				163550551C17C9DB00969607 /* AppDelegate.h */,
+				163550561C17C9DB00969607 /* AppDelegate.m */,
+				163550581C17C9DB00969607 /* ViewController.h */,
+				163550591C17C9DB00969607 /* ViewController.m */,
+				1635505B1C17C9DB00969607 /* Main.storyboard */,
+				163550611C17C9DB00969607 /* Assets.xcassets */,
+				163550631C17C9DB00969607 /* LaunchScreen.storyboard */,
+				163550661C17C9DB00969607 /* Info.plist */,
+				1635505E1C17C9DB00969607 /* AVOSCloudTest.xcdatamodeld */,
+				163550521C17C9DB00969607 /* Supporting Files */,
+			);
+			path = AVOSCloudTest;
+			sourceTree = "<group>";
+		};
+		163550521C17C9DB00969607 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				163550531C17C9DB00969607 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1635506E1C17C9DB00969607 /* AVOSCloudTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				1635506F1C17C9DB00969607 /* AVOSCloudTestTests.m */,
+				163550711C17C9DB00969607 /* Info.plist */,
+			);
+			path = AVOSCloudTestTests;
+			sourceTree = "<group>";
+		};
+		163550791C17C9DB00969607 /* AVOSCloudTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1635507A1C17C9DB00969607 /* AVOSCloudTestUITests.m */,
+				1635507C1C17C9DB00969607 /* Info.plist */,
+			);
+			path = AVOSCloudTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1635504E1C17C9DB00969607 /* AVOSCloudTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1635507F1C17C9DB00969607 /* Build configuration list for PBXNativeTarget "AVOSCloudTest" */;
+			buildPhases = (
+				1635504B1C17C9DB00969607 /* Sources */,
+				1635504C1C17C9DB00969607 /* Frameworks */,
+				1635504D1C17C9DB00969607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVOSCloudTest;
+			productName = AVOSCloudTest;
+			productReference = 1635504F1C17C9DB00969607 /* AVOSCloudTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1635506A1C17C9DB00969607 /* AVOSCloudTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 163550821C17C9DB00969607 /* Build configuration list for PBXNativeTarget "AVOSCloudTestTests" */;
+			buildPhases = (
+				163550671C17C9DB00969607 /* Sources */,
+				163550681C17C9DB00969607 /* Frameworks */,
+				163550691C17C9DB00969607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1635506D1C17C9DB00969607 /* PBXTargetDependency */,
+			);
+			name = AVOSCloudTestTests;
+			productName = AVOSCloudTestTests;
+			productReference = 1635506B1C17C9DB00969607 /* AVOSCloudTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		163550751C17C9DB00969607 /* AVOSCloudTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 163550851C17C9DB00969607 /* Build configuration list for PBXNativeTarget "AVOSCloudTestUITests" */;
+			buildPhases = (
+				163550721C17C9DB00969607 /* Sources */,
+				163550731C17C9DB00969607 /* Frameworks */,
+				163550741C17C9DB00969607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				163550781C17C9DB00969607 /* PBXTargetDependency */,
+			);
+			name = AVOSCloudTestUITests;
+			productName = AVOSCloudTestUITests;
+			productReference = 163550761C17C9DB00969607 /* AVOSCloudTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		163550471C17C9DB00969607 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = lingfeng;
+				TargetAttributes = {
+					1635504E1C17C9DB00969607 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					1635506A1C17C9DB00969607 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 1635504E1C17C9DB00969607;
+					};
+					163550751C17C9DB00969607 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 1635504E1C17C9DB00969607;
+					};
+				};
+			};
+			buildConfigurationList = 1635504A1C17C9DB00969607 /* Build configuration list for PBXProject "AVOSCloudTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 163550461C17C9DB00969607;
+			productRefGroup = 163550501C17C9DB00969607 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1635504E1C17C9DB00969607 /* AVOSCloudTest */,
+				1635506A1C17C9DB00969607 /* AVOSCloudTestTests */,
+				163550751C17C9DB00969607 /* AVOSCloudTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1635504D1C17C9DB00969607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163550651C17C9DB00969607 /* LaunchScreen.storyboard in Resources */,
+				163550621C17C9DB00969607 /* Assets.xcassets in Resources */,
+				1635505D1C17C9DB00969607 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163550691C17C9DB00969607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163550741C17C9DB00969607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1635504B1C17C9DB00969607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1635505A1C17C9DB00969607 /* ViewController.m in Sources */,
+				163550571C17C9DB00969607 /* AppDelegate.m in Sources */,
+				163550601C17C9DB00969607 /* AVOSCloudTest.xcdatamodeld in Sources */,
+				163550541C17C9DB00969607 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163550671C17C9DB00969607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163550701C17C9DB00969607 /* AVOSCloudTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163550721C17C9DB00969607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1635507B1C17C9DB00969607 /* AVOSCloudTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1635506D1C17C9DB00969607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1635504E1C17C9DB00969607 /* AVOSCloudTest */;
+			targetProxy = 1635506C1C17C9DB00969607 /* PBXContainerItemProxy */;
+		};
+		163550781C17C9DB00969607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1635504E1C17C9DB00969607 /* AVOSCloudTest */;
+			targetProxy = 163550771C17C9DB00969607 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1635505B1C17C9DB00969607 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1635505C1C17C9DB00969607 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		163550631C17C9DB00969607 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				163550641C17C9DB00969607 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1635507D1C17C9DB00969607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1635507E1C17C9DB00969607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		163550801C17C9DB00969607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AVOSCloudTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lingfeng.AVOSCloudTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		163550811C17C9DB00969607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AVOSCloudTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lingfeng.AVOSCloudTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		163550831C17C9DB00969607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AVOSCloudTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lingfeng.AVOSCloudTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVOSCloudTest.app/AVOSCloudTest";
+			};
+			name = Debug;
+		};
+		163550841C17C9DB00969607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AVOSCloudTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lingfeng.AVOSCloudTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVOSCloudTest.app/AVOSCloudTest";
+			};
+			name = Release;
+		};
+		163550861C17C9DB00969607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AVOSCloudTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lingfeng.AVOSCloudTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AVOSCloudTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		163550871C17C9DB00969607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AVOSCloudTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lingfeng.AVOSCloudTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AVOSCloudTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1635504A1C17C9DB00969607 /* Build configuration list for PBXProject "AVOSCloudTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1635507D1C17C9DB00969607 /* Debug */,
+				1635507E1C17C9DB00969607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1635507F1C17C9DB00969607 /* Build configuration list for PBXNativeTarget "AVOSCloudTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163550801C17C9DB00969607 /* Debug */,
+				163550811C17C9DB00969607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		163550821C17C9DB00969607 /* Build configuration list for PBXNativeTarget "AVOSCloudTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163550831C17C9DB00969607 /* Debug */,
+				163550841C17C9DB00969607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		163550851C17C9DB00969607 /* Build configuration list for PBXNativeTarget "AVOSCloudTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163550861C17C9DB00969607 /* Debug */,
+				163550871C17C9DB00969607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1635505E1C17C9DB00969607 /* AVOSCloudTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1635505F1C17C9DB00969607 /* AVOSCloudTest.xcdatamodel */,
+			);
+			currentVersion = 1635505F1C17C9DB00969607 /* AVOSCloudTest.xcdatamodel */;
+			path = AVOSCloudTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 163550471C17C9DB00969607 /* Project object */;
+}
